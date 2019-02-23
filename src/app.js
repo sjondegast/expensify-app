@@ -14,34 +14,32 @@ const EditExpensePage = () => <div>This is from my edit page</div>;
 
 const HelpPage = () => <div>This is my help page</div>;
 
-const NoMatch = () => <div>404!</div>;
+const NoMatch = () => (
+  <div>
+    404! - <Link to="/">Go Home</Link>
+  </div>
+);
+
+const Header = () => (
+  <header>
+    <h1>Expensify</h1>
+    <Link to="/">Home</Link>
+    <Link to="/create">Add Expense</Link>
+    <Link to="/edit">Edit Expense</Link>
+    <Link to="/help">Help</Link>
+  </header>
+);
 
 const routes = (
   <Router>
     <div>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/create">Add Expense</Link>
-        </li>
-        <li>
-          <Link to="/edit">Edit Expense</Link>
-        </li>
-        <li>
-          <Link to="/help">Help</Link>
-        </li>
-      </ul>
-
-      <hr />
-
+      <Header />
       <Switch>
         <Route exact path="/" component={ExpenseDashboardPage} />
         <Route path="/create" component={AddExpensePage} />
         <Route path="/edit" component={EditExpensePage} />
         <Route path="/help" component={HelpPage} />
-        <Route component={NoMatch}/>
+        <Route component={NoMatch} />
       </Switch>
     </div>
   </Router>
