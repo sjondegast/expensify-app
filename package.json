@@ -11,28 +11,28 @@
   "author": "Sjon de Gast",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.5",
-    "@babel/plugin-proposal-class-properties": "^7.1.0",
-    "@babel/preset-env": "^7.1.5",
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.4",
+    "babel-loader": "^8.0.5",
     "css-loader": "^1.0.1",
-    "node-sass": "^4.10.0",
+    "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0"
   },
   "dependencies": {
-    "@types/react-modal": "^3.2.1",
+    "@types/react-modal": "^3.8.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "eslint": "^5.7.0",
+    "eslint": "^5.14.1",
     "normalize.css": "^8.0.1",
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1",
-    "react-modal": "^3.6.1",
-    "validator": "^10.8.0",
-    "webpack": "^4.25.0"
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-modal": "^3.8.1",
+    "validator": "^10.11.0",
+    "webpack": "^4.29.5"
   }
 }
