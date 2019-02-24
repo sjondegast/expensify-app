@@ -1,6 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Switch, Route, Link, NavLink } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  NavLink
+} from "react-router-dom";
 import "normalize.css/normalize.css";
 import "./styles/styles.scss";
 
@@ -23,10 +29,18 @@ const NoMatch = () => (
 const Header = () => (
   <header>
     <h1>Expensify</h1>
-    <NavLink to="/" exact activeClassName="selected">Dashboard</NavLink>
-    <NavLink to="/create" activeClassName="selected">Add Expense</NavLink>
-    <NavLink to="/edit" activeClassName="selected">Edit Expense</NavLink>
-    <NavLink to="/help" activeClassName="selected">Help</NavLink>
+    <NavLink to="/" exact activeClassName="selected">
+      Dashboard
+    </NavLink>
+    <NavLink to="/create" activeClassName="selected">
+      Add Expense
+    </NavLink>
+    <NavLink to="/edit" activeClassName="selected">
+      Edit Expense
+    </NavLink>
+    <NavLink to="/help" activeClassName="selected">
+      Help
+    </NavLink>
   </header>
 );
 
