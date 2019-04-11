@@ -3,15 +3,13 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  NavLink
 } from "react-router-dom";
 
 import ExpenseDashboardPage from '../components/ExpenseDashboardPage';
 import AddExpensePage from '../components/AddExpensePage';
 import EditExpensePage from '../components/EditExpensePage';
 import HelpPage from '../components/HelpPage';
-import PageNotFound from '../components/PageNotFound';
+import NotFoundPage from '../components/NotFoundPage';
 import Header from '../components/Header';
 
 
@@ -24,7 +22,7 @@ const AppRouter = () => (
         <Route path="/create" component={AddExpensePage} />
         <Route path="/edit/:id" component={EditExpensePage} />
         <Route path="/help" component={HelpPage} />
-        <Route component={PageNotFound} />
+        <Route component={NotFoundPage} />
       </Switch>
     </div>
   </Router>
