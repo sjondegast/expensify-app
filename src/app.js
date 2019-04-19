@@ -26,7 +26,7 @@ store.dispatch(
 	addExpense({ description: 'Gas bill', amount: 1200, createdAt: 5000 })
 );
 // setTextFilter
-store.dispatch(setTextFilter('water'));
+store.dispatch(setTextFilter('gas'));
 // setVisibleExpenses
 
 const jsx = (
