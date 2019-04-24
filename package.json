@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "live-server": "live-server public/",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "test": "jest"
   },
   "author": "Sjon de Gast",
   "license": "ISC",
