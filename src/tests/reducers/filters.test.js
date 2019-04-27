@@ -57,15 +57,3 @@ test('should set endDate filter', () => {
 	const state = filterReducers(undefined, action);
 	expect(state.endDate).toEqual(endDate);
 });
-
-// test('should set endDate filter', () => {
-//     const currentState = {
-// 		text: '',
-// 		sortBy: 'date',
-// 		startDate: undefined,
-// 		endDate: undefined
-//     };
-//     const action = { type: 'SET_END_DATE', endDate: 6000 };
-//     const state = filterReducers(currentState, action);
-//     expect(state.endDate).toBe(6000);
-// });
