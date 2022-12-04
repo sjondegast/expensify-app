@@ -44,7 +44,7 @@
     "@types/react-modal": "^3.8.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "eslint": "^5.16.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "js-yaml": "^3.13.1",
     "moment": "^2.24.0",
     "node-gyp": "^4.0.0",
